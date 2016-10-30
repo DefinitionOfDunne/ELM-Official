@@ -5,11 +5,10 @@ const Navbar = React.createClass({
   render () {
     return (
       <div className={this.props.classname}>
-        <Link to='/'>Home</Link>
-        <Link to='/contact'>Contact</Link>
-        <Link to='/gallery'>Gallery</Link>
-        <Link to='/covers'>Covers</Link>
-        <Link to='/bio'>Bio</Link>
+      <Link to='/gallery'>Gallery</Link>
+      <Link to='/covers'>Covers</Link>
+      <Link to='/bio'>Bio</Link>
+      <Link to='/'>Home</Link>
       </div>
     )
   }

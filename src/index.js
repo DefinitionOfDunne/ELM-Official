@@ -6,7 +6,6 @@ const Covers = require('./components/Covers');
 const Gallery = require ('./components/Gallery');
 const Bio = require('./components/Bio');
 const Layout = require('./components/Layout');
-import './component-stylesheets/index.css';
 const ReactRouter = require('react-router');
 const { Router, Route, hashHistory, IndexRoute } = ReactRouter;
 

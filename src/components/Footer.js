@@ -19,8 +19,8 @@ const Footer = React.createClass({
         </div>
         <Navbar classname='footer-nav' />
         <div className='footer-attributes'>
-        <p>For booking inquires please contact ELMManagement@gmail.com</p>
-        <p>Website Built & Maintained By @DefinitionOfDunne</p>
+        <p className='footer-notes'>For booking inquires please contact <a className='email-link' href='mailto:evanlianmusic@gmail.com'> evanlianmusic@gmail.com</a></p>
+        <p className='footer-notes'>Website Built & Maintained By @DefinitionOfDunne</p>
         </div>
       </div>
     )
