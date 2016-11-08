@@ -24,29 +24,36 @@ img {
 }
 
 .image-gallery {
-    margin-top: 10rem;
+    width: 55%;
+    margin: 5rem auto;
 }
 
 .app-container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+    color: black;
+    font-size: 4rem;
+}
+.title h1 {
+    margin: 1rem auto;
+}
+.inner-content {
+    flex: 1;
     position: relative;
     width: 100%;
-    min-height: 80rem;
+    min-height: 60rem;
     height: 100%;
     background-color: bisque;
     display: flex;
     justify-content: center;
     text-align: center;
     color: white;
-    padding-bottom: 15rem;
 }
-
-.title {
-    color: black;
-    font-size: 4rem;
-}
-
 .header-nav {
-    width: 100vw;
+    width: 100%;
     height: 5rem;
     background-color: #71d4d4;
     position: absolute;
@@ -59,11 +66,32 @@ img {
     margin: 0rem 4rem 0rem 0rem;
     font-size: 3rem;
 }
+.header-nav a:hover {
+    text-decoration: underline;
+}
+.header-nav a:active {
+    text-transform: uppercase;
+} 
+.landing-div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 5rem;
+    padding-left: 20%;
+    padding-bottom: 10%;
+}
+
+.landing-div-covers {
+    position: relative;
+    width: 100%;   
+}
 
 .brand-logo {
     font-family: 'Dosis', cursive;
     z-index: 4;
-    max-height: 21rem;
+    height: 100%;
+    width: 20%;
+    min-width: 200px;
     position: absolute;
     background-color: rgba(224, 100, 224, 0.42);
     border-radius: 2px 41px 5px;
@@ -71,17 +99,28 @@ img {
 }
 
 .brand-logo img {
-    height: 20rem;
+    width: 100%;
     opacity: .3;
 }
-
+.tour-info {
+    font-size: 2rem;
+    font-variant: small-caps;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+.tour-info-labels {
+    font-size: 1.5rem;
+    display: inline-block;
+    font-variant: small-caps;
+    width: 50%;  
+}
+.show-info {
+    font-style: italic;
+}
 .footer {
-    height: 20rem;
+    height: 25%;
     background-color: #71d4d4;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    text-align: center;
 }
 
 .footer-nav {
@@ -104,7 +143,8 @@ img {
 .social-media-links {
     width: 100%;
     height: 30%;
-    margin: 1.5rem;
+    margin: 1.5rem auto;
+    text-align: center;
 }
 
 .social-media-links a {
@@ -119,6 +159,10 @@ img {
     text-align: center;
     padding: 30px;
 }
+.social-media-links a:hover {
+    color: bisque;
+    background-color: rgba(224, 100, 224, 0.42);
+}
 
 .footer-attributes {
     background-color: rgba(224, 100, 224, 0.42);
@@ -126,10 +170,9 @@ img {
     width: 100%;
     height: 25%;
     display: block;
-    position: absolute;
-    bottom: 0;
     text-transform: uppercase;
     font-size: 1.25rem;
+    text-align: center;
 }
 
 .block-text {
@@ -142,7 +185,6 @@ img {
 
 .cover-ul-wrapper {
     width: 100%;
-    margin: 10rem auto;
 }
 
 .covers-li:nth-child(even) {
@@ -156,7 +198,6 @@ img {
     padding: 2rem 1rem 5rem;
     background-color: #71d4d4;
     display: inline-block;
-    width: 40%;
 }
 
 .covers-li h2 {
@@ -187,6 +228,8 @@ img {
 }
 
 #fanclub {
+    width: 50%;
+    margin: 0 auto;
     background-color: #71d4d4;
     padding: 15px;
     position: relative;

@@ -2,7 +2,7 @@ const React = require('react');
 const Header = require('./Header');
 
 const Bio = () => (
-  <div>
+  <div className='landing-div'>
     <Header title='Bio Page' />
     <p className='block-text'>Hailing from Novi, Michigan, Evan Lian is a 23 year old singer/songwriter that carries the quiet reflectiveness of the suburbs with him in his music. The son of an engineer and violin teacher, Evan grew up surrounded by music.</p>
     <p className='block-text'>Starting with the violin at four, he picked up guitar along the way and hasn’t put it down since. It wasn’t long before he began writing songs as his own sort of diary, starting in high school and through his years at Grand Valley State University. Stories of growing pains, of first loves, of heartbreaks, and all the ups and downs in between.</p>

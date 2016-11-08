@@ -11,7 +11,7 @@ const Covers = React.createClass({
       </li>
     })
     return (
-      <div className='covers-content'>
+      <div className='landing-div'>
       <Header title='Covers Page' />
       <ul className='cover-ul-wrapper'> {covers} </ul>
     </div>

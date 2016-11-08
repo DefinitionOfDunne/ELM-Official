@@ -23,7 +23,7 @@ class Gallery extends React.Component {
     ]
 
     return (
-      <div>
+      <div className='landing-div'>
       <Header title='Gallery' />
       <ImageGallery
         ref={i => this._imageGallery = i}
