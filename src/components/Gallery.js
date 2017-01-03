@@ -17,8 +17,14 @@ class Gallery extends React.Component {
         description: 'Grand Rapids Poetry Slam, 2013'
       },
       {
-        original: 'https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/309584_269503146421439_778197965_n.jpg?oh=9c9cdf4590a26cc00d70af1b145e9658&oe=58635F94',
-        description: 'Monster Mash Grand Rapids, 2011'
+        original: 'https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/10154261_10101819258747905_8387034424993681149_n.jpg?oh=78f2919935aab219e05ef85d4f2135dc&oe=58D2AAFD',
+        originalClass: 'featured-slide',
+        description: 'Oklahoma Photo Shoot, 2013'
+      },
+      {
+        original: 'https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/17871_270732127940_6541800_n.jpg?oh=f5e06ab9f6c9852de4835f30ccbaa088&oe=5899228C',
+        originalClass: 'featured-slide',
+        description: 'Novi Open Mic, 2010'
       }
     ]
 

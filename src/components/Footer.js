@@ -16,6 +16,15 @@ const Footer = React.createClass({
         <a className='footer-item' href='https://soundcloud.com/evahnsan' target='_blank'>
             <FontAwesome name='soundcloud' size='2x'/>
         </a>
+        <a className='footer-item' href='https://www.instagram.com/evahnsan' target='_blank'>
+            <FontAwesome name='instagram' size='2x'/>
+        </a>
+        <a className='footer-item' href='https://www.youtube.com/channel/UCfUDlrptpDOd7qBZyVxNLzg' target='_blank'>
+            <FontAwesome name='youtube' size='2x'/>
+        </a>
+        <a className='footer-item' href='http://www.evanlian.tumblr.com/' target='_blank'>
+            <FontAwesome name='tumblr' size='2x'/>
+        </a>
         </div>
         <Navbar classname='footer-nav' />
         <div className='footer-attributes'>

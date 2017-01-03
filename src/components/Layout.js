@@ -3,6 +3,8 @@ const Navbar = require('./Navbar');
 const Footer = require('./Footer');
 const Brand = require('./Brand');
 import '../component-stylesheets/style.css';
+import '../component-stylesheets/mobile.css';
+import '../component-stylesheets/mobile-small.css';
 
 const Layout = (props) => (
   <div className='app-container'>

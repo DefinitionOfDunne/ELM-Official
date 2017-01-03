@@ -1,18 +1,33 @@
-@media only screen and (max-width: 500px) {
-    .header-nav {
-        width: 100vw;
-        position: absolute;
-        top: 0;
-        display: block;
+@media only screen and (max-width: 1000px) {
+    .social-media-links {
+        width: 70%;
+        height: 30%;
+        text-align: center;
     }
-    .header-nav a {
-        font-size: 2rem;
-        display: block;
+}
+
+@media only screen and (max-width: 750px) {
+    #fanclub {
+        width: 70%;
+        margin-bottom: 5rem;
     }
-    .title {
-        display: none;
+    #album-info {
+        width: 70%;
     }
-    .brand-logo {
-        top: 15;
+    .footer {
+        z-index: 100;
+    }
+    .footer-nav a {
+        color: bisque;
+        margin: 0rem 1rem;
+        font-size: 3rem;
+        display: inline-block;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    .social-media-links {
+        width: 80%;
+        height: 30%;
+        text-align: center;
     }
 }
